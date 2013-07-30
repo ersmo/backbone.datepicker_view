@@ -4,10 +4,12 @@ Bootstrap style datepicker backbone view
 
 ## Usage
 
+```js
 var view = new Backbone.DatepickerView({
   el: $('.input-date'),
   placeholder: 'Date Picker'
 });
+```
 
 ## Options
 
