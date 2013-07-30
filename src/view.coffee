@@ -9,7 +9,7 @@ class Backbone.DatepickerView extends Backbone.View
     dateFormat: 'yyyy-MM-dd'
     name: 'date'
     span: 'span2'
-    placeholder: 'Date pick'
+    placeholder: 'Date'
     defaultValue: null
     settings:
       pickSeconds: false

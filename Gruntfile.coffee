@@ -7,7 +7,7 @@ module.exports = (grunt) ->
       dist:
         src: [
           'lib/template.js'
-          'lib/datepicker_view.js'
+          'lib/view.js'
         ]
         dest: 'dist/<%= pkg.name %>.js'
     uglify:
@@ -22,11 +22,11 @@ module.exports = (grunt) ->
           processName: (filename) ->
             'datepicker'
         files:
-          'lib/template.js': 'src/datepicker.jade'
+          'lib/template.js': 'src/template.jade'
     coffee:
       compile:
         files:
-          'lib/datepicker_view.js': 'src/*.coffee'
+          'lib/view.js': 'src/view.coffee'
     clean: [
       'lib'
       'dist'

@@ -28,7 +28,7 @@ var locals_ = (locals || {}),name = locals_.name,placeholder = locals_.placehold
       dateFormat: 'yyyy-MM-dd',
       name: 'date',
       span: 'span2',
-      placeholder: 'Date pick',
+      placeholder: 'Date',
       defaultValue: null,
       settings: {
         pickSeconds: false

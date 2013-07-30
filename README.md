@@ -7,7 +7,7 @@ Bootstrap style datepicker backbone view
 ```js
 var view = new Backbone.DatepickerView({
   el: $('.input-date'),
-  placeholder: 'Date Picker'
+  placeholder: 'Datepicker'
 });
 ```
 
@@ -18,7 +18,7 @@ defaults:
   dateFormat: 'yyyy-MM-dd'
   name: 'date'
   span: 'span2'
-  placeholder: 'Date pick'
+  placeholder: 'Date'
   defaultValue: null
   settings:
     pickSeconds: false
