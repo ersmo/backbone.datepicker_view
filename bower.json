@@ -1,0 +1,16 @@
+{
+  "name": "backbone.datepicker_view",
+  "version": "0.0.0",
+  "main": "dist/backbone.datepicker_view.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.0.0",
+    "bootstrap-datetimepicker": "~0.0.11"
+  }
+}
