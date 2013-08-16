@@ -1,7 +1,7 @@
 
 class Backbone.DatepickerView extends Backbone.View
 
-  template: window.JST.datepicker
+  template: JST.datepicker
 
   tagName: 'span'
 
