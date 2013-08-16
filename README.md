@@ -26,5 +26,5 @@ defaults:
 
 ## License
 
-Copyright (c) 2013 Jarvis Ao Ieong
+Copyright (c) 2013 Jarvis Ao Ieong  
 Licensed under the MIT license.
