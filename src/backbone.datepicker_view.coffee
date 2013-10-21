@@ -29,6 +29,6 @@ class Backbone.DatepickerView extends Backbone.View
       @$date.datetimepicker @options.settings
       if @options.defaultValue
         picker = @$date.data 'datetimepicker'
-        picker.setLocalDate new Date @options.defaultValue
+        picker.setLocalDate moment(@options.defaultValue).toDate()
     ,
       0
