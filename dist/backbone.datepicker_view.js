@@ -54,7 +54,7 @@ var locals_ = (locals || {}),name = locals_.name,placeholder = locals_.placehold
         _this.$date.datetimepicker(_this.options.settings);
         if (_this.options.defaultValue) {
           picker = _this.$date.data('datetimepicker');
-          return picker.setLocalDate(new Date(_this.options.defaultValue));
+          return picker.setLocalDate(moment(_this.options.defaultValue).toDate());
         }
       }, 0);
     };
